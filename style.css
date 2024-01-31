@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #2d3250;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    color: #F6B17A;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #c37a7a;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: #2d3250;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer a {
+    color: #F6B17A;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  footer a:hover {
+    background-color: #c37a7a;
+    border-radius: 10px;
+  }
+  
+  .section1 {
+    background-color: #cc854f;
+    padding: 20px;
+  }
+
+  .header-sectionimg {
+    background-image: url(betterorange.jpg);
+    background-size: cover;
+    background-position: center -20%;
+  }
+
+  .header-sectionimg img {
+        border-radius: 50%;
+ }
+  
+  hr {
+    border-radius: 100px;
+    border-top: 2px solid #de8236;
+  }
+
+  .need {
+    text-align: center;
+    color: #2d3250;
+  }
+
+  .need h1 {
+    margin-bottom: 5px;
+  }
+
+  .need h2 {
+    margin-top: 20px;
+  }
+
+  .img {
+    text-align: center;
+  }
+
+  .img img {
+    border-radius: 80px solid #2d2d2d;
+    border-radius: 10%;
+  }
+
+  .greeting {
+    text-align: center;
+    color:#7077a1;
+  }
+  
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    padding: 20px;
+    background-color:#7077a1;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+  }
+
+  .card h3 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .card dl {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .card dt {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .card:nth-child(1) dt {
+    font-size: 26px;
+  }
+
+  .ayo {
+    text-align: center;
+    color: #c37a7a
+  }
+
+  .into {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 50px;
+  }
+  
+  .greeting h2 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+  }
+
+  .lobster-regular greeting h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .one-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form-box {
+    background-color: #767eaa;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+  body {
+    background-image: url('letstry.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+  }
+
+  hr {
+    border: none;
+    height: 10px;
+    background-image: url('betterorange.jpg');
+    background-size: 20px;
+  }
+
+  .contact-info p {
+    font-size: 20px;
+  }
+
+  .contact-klara h1 {
+    font-size: 50px;
+  }
